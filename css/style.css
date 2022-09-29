@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppnis', sans-serif;
+    background: #1F1D2B;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+
+a.a:hover {
+    text-decoration: none;
+}
+
+/*HEADER*/
+#header {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header label input {
+    margin-top: 20px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 12px;
+    color:blue;
+    width: 625px;
+    height: 40px;
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-end select {
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    background: transparent;
+}
+
+.fa-bell {
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+.main {
+    display: flex;
+}
+.main-content{
+    margin-left: 80px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 110% */
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 15px 0;
+
+}
+
+.main-bottom-line {
+    border-bottom: 1px solid #FFFFFF;
+    width: 148px;
+    margin-bottom: 40px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF7551;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+.main-top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.main-content h1{
+    margin-bottom: 30px;
+}
+
+.sidebar h4 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.5px;
+    color: #808191;
+    margin-bottom: 34px;
+
+}
+
+.bottom-sidebar h4 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.5px;
+    color: #808191;
+    margin-top: 34px;
+
+}
+
+.img {
+    display: flex;
+    margin-top: 40px;
+}
+
+.img p {
+    margin: 0 20px;
+    color: white;
+
+
+}
+.top-card img{
+    margin-right: 15px;
+}
+.top-card{
+    background: url("../img/Group 363.png") no-repeat center/contain;
+    width: 725px;
+    height: 366px;
+    padding: 10px 30px;
+    position: relative;
+}
+.user-about {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.top-card h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    /*padding: 50px 50px;*/
+}
+.minute{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    /* identical to box height, or 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 20px;
+    letter-spacing: 0.5px;
+    bottom: 10px;
+    position: absolute;
+    right: 20px;
+    background: #242730;
+    opacity: 0.5;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+.top-card2{
+    background: url("../img/Group 367 (1).png") no-repeat center/contain;
+    width: 352px;
+    height: 366px;
+    padding: 10px 30px;
+    position: relative;
+
+}
+.top-card2 h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.user-about2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.minute2 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 10px;
+    bottom: 10px;
+    position: absolute;
+    right: 20px;
+    letter-spacing: 0.5px;
+    background: #242730;
+    opacity: 0.5;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+/*MAIN*/
+.main-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-card {
+    position: relative;
+    width: 24%;
+    background: #252836;
+    border-radius: 20px;
+}
+.card-bottom{
+    padding: 30px 15px;
+}
+.card-top{
+    background: url("../img/image 5.png") no-repeat center/cover;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-bottom h4{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    color: #B7B9D2;
+}
+.card-bottom h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.card-bottom p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    color: #808191;
+}
+.minute-bottom{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    /* identical to box height, or 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    background: #242730;
+    margin-top: 10px;
+    margin-right: 10px;
+    opacity: 0.5;
+    border-radius: 7px;
+    color: #FFFFFF;
+    width: 46px;
+    height: 20px;
+}
+.bottom-avatar{
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    right: 27px;
+    top: 130px;
+}
+.card-top2{
+    background: url("../img/image 7.png") no-repeat center/cover;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-top3{
+    background: url("../img/Group 370 (2).png") no-repeat center/cover;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-top4{
+    background: url("../img/Group 370 (1).png") no-repeat center/cover;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
